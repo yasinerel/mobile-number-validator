@@ -1,0 +1,10 @@
+{
+    "name": "mobile-number-validator",
+    "version": "1.0.0",
+    "description": "A library for validating mobile numbers",
+    "main": "index.js",
+    "dependencies": {},
+    "author": "Taha Yasin Erel",
+    "license": "MIT"
+  }
+  
