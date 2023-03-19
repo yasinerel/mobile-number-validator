@@ -15,6 +15,8 @@ function isValidMobileNumber(number) {
 function isValidPhoneNumber(phoneNumber) {
     const phoneRegex = /^\d{10}$/; // Regular expression for a 10-digit phone number
     return phoneRegex.test(phoneNumber);
+
+    module.exports = { isValidPhoneNumber };
 }
 
 
