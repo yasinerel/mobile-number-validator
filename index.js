@@ -1,5 +1,6 @@
 //validation with regular expression
 
+/*
 function isValidMobileNumber(number) {
     const pattern = /^([+]?\d{1,2}[.-\s]?)?(\d{3}[.-]?){2}\d{4}$/;
     return pattern.test(number);
@@ -8,7 +9,21 @@ function isValidMobileNumber(number) {
   module.exports = {
     isValidMobileNumber
   };
-  
+  */
+
+
+function isValidPhoneNumber(phoneNumber) {
+    const phoneRegex = /^\d{10}$/; // Regular expression for a 10-digit phone number
+    return phoneRegex.test(phoneNumber);
+}
+
+
+
+
+
+
+
+
 
 
 //The function returns true if the number is valid and false otherwise.
